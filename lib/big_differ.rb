@@ -1,4 +1,5 @@
-require "big_differ/version"
+require 'big_differ/version'
+require 'big_differ/review'
 
 module BigDiffer
   class Error < StandardError; end
