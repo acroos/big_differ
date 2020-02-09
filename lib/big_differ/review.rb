@@ -1,6 +1,10 @@
 module BigDiffer
   class Review
-    def self.start
+    def initialize(url)
+      @url = url
+    end
+
+    def begin
       0
     end
   end
